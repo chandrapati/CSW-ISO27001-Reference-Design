@@ -61,7 +61,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -241,13 +241,13 @@ ISO 27001 requires a risk treatment plan. CSW data feeds directly into this:
 
 ## Related Frameworks
 
-- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — for organisations cross-mapping ISO 27001 to a US federal control catalogue.
-- [NIS2 (EU 2022/2555)](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIS2/CSW-NIS2-Technical-Runbook.md) — Article 21(2) measures map closely to ISO 27001 Annex A controls.
-- [DORA (EU 2022/2554)](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/DORA/CSW-DORA-Technical-Runbook.md) — financial-sector entities typically certify to ISO 27001 *and* report under DORA.
-- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the segmentation pattern underneath A.8.20–A.8.23.
+- [NIST SP 800-53 Rev 5](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-53/CSW-NIST-800-53-Technical-Runbook.md) — for organisations cross-mapping ISO 27001 to a US federal control catalogue.
+- [NIS2 (EU 2022/2555)](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIS2/CSW-NIS2-Technical-Runbook.md) — Article 21(2) measures map closely to ISO 27001 Annex A controls.
+- [DORA (EU 2022/2554)](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/DORA/CSW-DORA-Technical-Runbook.md) — financial-sector entities typically certify to ISO 27001 *and* report under DORA.
+- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the segmentation pattern underneath A.8.20–A.8.23.
 
 
-- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/UK-NCSC-CAF/caf-mapping.md) — A.8.20–A.8.22 is the reuse path for CAF B5.
+- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/UK-NCSC-CAF/caf-mapping.md) — A.8.20–A.8.22 is the reuse path for CAF B5.
 
 ---
 
@@ -263,4 +263,4 @@ ISO 27001 requires a risk treatment plan. CSW data feeds directly into this:
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
