@@ -69,6 +69,8 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 Execute these phases for **this framework's** compliance boundary. Map exports to control IDs in the **Reporting & Evidence** section below.
 
+![CSW evidence workflow for ISO/IEC 27001:2022 — the four phases from agent coverage through continuous proof, with the evidence artifact produced at each phase](assets/csw-evidence-workflow.png)
+
 | Phase | Goal | Key CSW actions | Typical duration |
 |-------|------|-----------------|------------------|
 | **1 — Coverage** | Every in-scope workload in CSW | Install agents/connectors; apply compliance labels; create scope | Days 1–10 |
@@ -106,7 +108,7 @@ Execute these phases for **this framework's** compliance boundary. Map exports t
 
 ### What CSW evidence does not replace
 
-Physical access, HR/training records, encryption key management, signed BAAs/vendor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
+Physical access, HR/training records, encryption key management, signed vendor and processor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
 
 ---
 
@@ -170,6 +172,8 @@ ISO 27001:2022 restructured Annex A from 114 controls across 14 domains to **93 
 ### 3.1 ISMS Scope Definition
 
 Map ISO 27001 ISMS scope to CSW scopes:
+
+![ISO/IEC 27001:2022 scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
 
 ```
 Root Scope
